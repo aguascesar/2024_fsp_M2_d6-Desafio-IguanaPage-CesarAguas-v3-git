@@ -1,0 +1,113 @@
+body {
+    text-align: center;
+    color: #000f08;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font: normal normal medium 50px/59px Raleway;
+    background: #000000 0% 0% no-repeat padding-box;
+  }
+  
+  body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+  }
+  
+  .encabezado {
+    text-align: center;
+    padding: 1.25rem 4rem;     /*arriba y abajo*/
+    position: static;
+    background: #000000 0% 0% no-repeat padding-box;
+    color: #ffffff;
+    font-weight: 300;
+    background-size:100%;
+  }
+
+  .imgGrande {
+    width: 100%;
+    vertical-align: center;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    float: right;
+    background: #000000 0% 0% no-repeat padding-box;
+  }
+
+  .parrafo{
+    text-align: left;
+    width: 40%;
+    background: #826666 0% 0% no-repeat padding-box;
+    color: #ffffff;
+    vertical-align: left;
+
+    background: #000f08 0% 0% no-repeat padding-box;
+    display: inline-block;
+  }
+
+  .parrafoeimagen {
+    width: 20%;
+    text-align: left;
+    color: #ffffff;
+
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    display: inline-block;
+  }
+
+  .imgMid  {
+    width: 30%;
+    vertical-align: center;
+    display: inline-block;
+  }
+
+ .parrafo, .parrafoeimagen, .imgMid, .ordCar {
+    display: inline-block;
+  }
+  
+  .caracteristicas {
+    text-align: center;
+    color: #ffffff;
+    font: normal normal medium 40px/47px Raleway;
+    padding: 3.125rem;
+    white-space: nowrap;
+    /*1E1A13, a4452c*/
+    background: #1E1A13 0% 0% no-repeat padding-box;
+  }
+  
+  .ordCar {
+    padding: 2rem 0 2rem 0;
+    width: 30%;
+    font: normal normal 300 24px/29px Raleway;
+  }
+  
+  .fdoImgSmll {
+    color: #ffffff;
+    background: #000f08 0% 0% no-repeat padding-box;
+  }
+  
+  .imgSmll  {
+    height: 150px;
+    padding: 4rem 0 4rem 0;
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+    background: #000f08 0% 0% no-repeat padding-box;
+  }
+  
+  
+  .pie {
+    padding: 1.5rem;
+    text-align: center;
+    font: normal normal 300 20px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+  }
+  
+  .pie a {
+        color: #ffffff;
+        font: normal normal 300 20px/24px Raleway;
+  }
